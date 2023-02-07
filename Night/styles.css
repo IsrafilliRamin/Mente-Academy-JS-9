@@ -1,0 +1,65 @@
+
+*{
+margin: 0;
+padding: 0;
+}
+
+.container{
+    height: 100vh;
+    width: 100%;
+    background-color: yellow;
+    transition: .3s ease-in all;
+}
+.containerNight{
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(38, 0, 255);
+    transition: .3s ease-in all;
+}
+
+.border{
+  position: relative;
+    top: 200px;
+    left: 100px;
+    width: 50px;
+    height: 20px;
+    border: 2px solid black;
+    border-radius: 20px
+}
+
+.btn{
+    position: absolute;
+    left: 0;
+    top:0;
+    height: 20px;
+    width: 20px;
+    background-color: black;
+    border-radius: 20px;
+    cursor: pointer;
+    z-index: 10;
+    transition: .3s ease-in all;
+}
+.btnNight{
+    position: absolute;
+    left: 30px;
+    top:0;
+    height: 20px;
+    width: 20px;
+    background-color: black;
+    border-radius: 20px;
+    cursor: pointer;
+    z-index: 10;
+    transition: .3s ease-in all;
+}
+.fa-moon{
+    position: absolute;
+    right: 3px;
+    top:0;
+    font-size: 18px;
+}
+.fa-sun{
+    position: absolute;
+    left: 1px;
+    top:0;
+    font-size: 18px;
+}
